@@ -41,7 +41,7 @@ func (oe *OnceExecutor) TryWithErrCB(fn func() error, cb func(err error)) {
 	}
 }
 
-// MCP .
+// MCP the Sgul MASTER CONTROL PROGRAM
 type MCP struct {
 	d        *discoverer.Discoverer
 	hm       *sync.Mutex
